@@ -1,0 +1,179 @@
+{
+  "Abnormal_Wear": {
+    "component": "Tread",
+    "condition": "Abnormal or uneven wear",
+    "inspection_checks": [
+      "Check wear pattern across the tread",
+      "Check tyre inflation condition",
+      "Check wheel alignment",
+      "Check loading conditions",
+      "Check for localized excessive wear"
+    ],
+    "reference": "Company / approved tyre inspection standard",
+    "guidance": "Inspect the wear pattern and determine whether operating, alignment, inflation or loading conditions contributed to the damage.",
+    "decision": "Engineering review recommended"
+  },
+
+  "Bead_Damage": {
+    "component": "Bead",
+    "condition": "Bead damage",
+    "inspection_checks": [
+      "Inspect bead deformation",
+      "Check rubber loss",
+      "Check exposed reinforcement",
+      "Inspect rim-contact area",
+      "Check bead seating condition"
+    ],
+    "reference": "Company / approved tyre inspection standard",
+    "guidance": "The bead region should be inspected for structural damage before mounting or continued service.",
+    "decision": "Detailed inspection required"
+  },
+
+  "Bulge": {
+    "component": "Sidewall / tyre structure",
+    "condition": "Bulge or localized swelling",
+    "inspection_checks": [
+      "Inspect bulge location",
+      "Check deformation size",
+      "Check surrounding sidewall",
+      "Inspect for possible internal structural damage"
+    ],
+    "reference": "Company / approved tyre inspection standard",
+    "guidance": "A bulge may indicate internal structural damage and requires detailed inspection.",
+    "decision": "Remove from normal service pending inspection"
+  },
+
+  "Cut": {
+    "component": "Tyre surface",
+    "condition": "Cut",
+    "inspection_checks": [
+      "Measure cut length",
+      "Assess cut depth",
+      "Check whether reinforcement is exposed",
+      "Check cut location",
+      "Inspect surrounding rubber"
+    ],
+    "reference": "Company / approved tyre inspection standard",
+    "guidance": "Assess the depth, length and structural involvement of the cut before determining serviceability.",
+    "decision": "Manual assessment required"
+  },
+
+  "Shoulder_Crack": {
+    "component": "Shoulder",
+    "condition": "Shoulder cracking",
+    "inspection_checks": [
+      "Check crack length",
+      "Check crack depth",
+      "Inspect crack propagation",
+      "Check reinforcement exposure",
+      "Inspect shoulder deformation"
+    ],
+    "reference": "Company / approved tyre inspection standard",
+    "guidance": "Inspect the shoulder region for crack propagation and possible structural involvement.",
+    "decision": "Engineering inspection recommended"
+  },
+
+  "Sidewall_Crack": {
+    "component": "Sidewall",
+    "condition": "Sidewall cracking",
+    "inspection_checks": [
+      "Check crack position",
+      "Measure crack length",
+      "Assess crack depth",
+      "Check cord exposure",
+      "Check structural deformation",
+      "Check crack propagation"
+    ],
+    "reference": "Company / approved tyre inspection standard",
+    "guidance": "Sidewall cracking should be assessed for depth, propagation and structural involvement.",
+    "decision": "Detailed sidewall inspection required"
+  },
+
+  "Sidewall_Damage": {
+    "component": "Sidewall",
+    "condition": "Sidewall damage",
+    "inspection_checks": [
+      "Inspect affected area",
+      "Check depth of damage",
+      "Check exposed reinforcement",
+      "Inspect deformation",
+      "Assess structural integrity"
+    ],
+    "reference": "Company / approved tyre inspection standard",
+    "guidance": "Evaluate the damaged sidewall area and determine whether the structural layers are affected.",
+    "decision": "Engineering review required"
+  },
+
+  "Tire_Burst": {
+    "component": "Tyre structure",
+    "condition": "Burst / major rupture",
+    "inspection_checks": [
+      "Inspect rupture location",
+      "Check structural separation",
+      "Inspect reinforcement failure",
+      "Check adjacent damaged areas"
+    ],
+    "reference": "Company / approved tyre inspection standard",
+    "guidance": "A burst tyre should be removed from operation and investigated for the failure mechanism.",
+    "decision": "Remove from service"
+  },
+
+  "Tread_Chunking": {
+    "component": "Tread",
+    "condition": "Tread chunking",
+    "inspection_checks": [
+      "Measure affected tread area",
+      "Check tread depth",
+      "Inspect rubber loss",
+      "Check operating surface conditions",
+      "Inspect adjacent tread blocks"
+    ],
+    "reference": "Company / approved tyre inspection standard",
+    "guidance": "Inspect tread material loss and determine whether operating conditions contributed to chunking.",
+    "decision": "Detailed tread inspection required"
+  },
+
+  "Tread_Damage": {
+    "component": "Tread",
+    "condition": "Tread damage",
+    "inspection_checks": [
+      "Inspect damaged tread region",
+      "Assess damage depth",
+      "Measure affected area",
+      "Check reinforcement exposure",
+      "Inspect surrounding tread"
+    ],
+    "reference": "Company / approved tyre inspection standard",
+    "guidance": "Assess the size, depth and structural involvement of the tread damage.",
+    "decision": "Manual inspection required"
+  },
+
+  "Tread_Separation": {
+    "component": "Tread / tyre structure",
+    "condition": "Tread separation",
+    "inspection_checks": [
+      "Check separation extent",
+      "Inspect affected tread area",
+      "Check layer exposure",
+      "Check deformation",
+      "Inspect structural integrity"
+    ],
+    "reference": "Company / approved tyre inspection standard",
+    "guidance": "Possible tread separation requires structural inspection before further use.",
+    "decision": "Remove from normal service pending inspection"
+  },
+
+  "noDefect": {
+    "component": "Tyre",
+    "condition": "No visible defect detected",
+    "inspection_checks": [
+      "Continue routine visual inspection",
+      "Check tread condition",
+      "Check sidewalls",
+      "Check bead region"
+    ],
+    "reference": "Company / approved tyre inspection standard",
+    "guidance": "The AI did not identify a visible defect. This does not replace the normal tyre inspection procedure.",
+    "decision": "Continue normal inspection process"
+  }
+}
